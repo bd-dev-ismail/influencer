@@ -164,3 +164,96 @@ p{
     color: #787885;
     font-size: 14px;
 }
+.cart-btn{
+    text-align: right;
+    margin-top: 30px;
+}
+.cart-btn a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cart-btn .arrow{
+    font-size: 18px;
+    color: #E02C6D;
+}
+/* Start Feature Section Style  */
+#feature{
+   margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.features{
+    width: 1180px;
+        height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-img{
+    padding-right: 50px;
+}
+.feature-title{
+    font-size: 40px;
+    color: #0A0826;
+}
+.btn-2{
+    padding: 12px 22px;
+    border-radius: 0;
+}
+/* Start Footer Section Design  */
+.footer-container{
+    background-color: #0A0826;
+    
+    color: #fff;
+    text-align: center;
+}
+.footer-title{
+    padding: 25px 0;
+}
+.social-link{
+    font-size: 22px;
+    padding: 20px 0;
+}
+.social-link .fa-brands{
+    margin: 0 5px;
+}
+/* Media Quries  */
+/* Mobile Devices  */
+@media only screen and (max-width: 688px){
+    .hero-area{
+        flex-direction: column-reverse;
+        padding: 0;
+        height: 580px;
+    }
+    h1{
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    p{
+        font-size: 14px;
+    }
+    .hero-img img{
+        width: 70%;
+    }
+    .hero-img, .hero-description{
+        width: 100%;
+        text-align: center;
+    }
+    .company-container{
+        flex-direction: column;
+        background-color: #fff;
+        height: 100%;
+        margin: 20px;
+        
+    }
+    .logo{
+        padding: 20px 0;
+    }
+    .items{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+}
