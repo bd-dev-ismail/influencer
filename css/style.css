@@ -33,34 +33,118 @@ p{
     color: #fff;
     font-size: 16px;
 }
+/* Start Nav Section Design  */
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.navbar{
+    width: 70%;
+    text-align: center;
+    padding-left: 60px;
+}
+.logo{
+    width: 30%;
+    text-align: center;
+    font-size: 28px;
+}
+.navbar .list-item li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.list-item a{
+    text-decoration: none; 
+    color: #3A3A3A;
+}
+.list-item>.active>a{
+    color: #E02C6D;
+}
+.list-item a:hover,
+.list-item .icon:hover{
+    color: #E02C6D;
+}
+.list-item .icon{
+    color: #000000;
+}
 /* Hero Area Style  */
 .hero{
-   
-
+    
 }
 .hero-area{
     width: 100%;
-    height: 550px;
+    height: 650px;
     display: flex;
     align-items: center;
     background-color: rgba(255, 166, 0, 0.11);
-    padding: 0 50px;
+    padding: 100px 50px;
+    margin:  0;
+    
 }
 .hero-description{
     width: 60%;
 }
 .hero-img{
     width: 40%;
+    text-align: center;
 }
 .hero-img img{
     width: 80%;
 }
 /* Start Logo Section Style  */
-.logo-container{
+.company-container{
+   
     height: 110px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #cdc2c2c2;
+    background-color: #d9e8fb;
     margin: 50px 0;
+}
+/* Start Products Collection Section Style */
+#products{
+    margin: 100px 0;
+}
+.item{
+    width: 330px;
+    height: 480px;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 5px;
+    padding: 15px;
+}
+.item-img img{
+    width: 100%;
+
+}
+.product-title h2{
+    font-size: 42px;
+    text-align: center;
+}
+.item-info .star{
+    color: orange;
+}
+.item-title{
+    font-size: 28px;
+    color: #18191F;
+    font-weight: normal;
+}
+.item-detalis-star{
+    padding: 10px 0;
+}
+.item-price{
+    font-size: 24px;
+    color: #000000;
+    
+}
+.rating{
+    font-size: 16px;
+    color: #5E6366;
+}
+.item-description{
+    color: #787885;
+    font-size: 14px;
 }
